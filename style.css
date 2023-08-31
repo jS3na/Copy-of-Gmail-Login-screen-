@@ -1,0 +1,180 @@
+html{
+    background-color: white;
+  }
+
+.quadrado{
+  background: white;                                              
+  width: 447px;
+  height: 500px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+
+}
+
+.glogo{
+  scale: 0.19;
+  position: absolute;
+  top: 0.000000001;
+  left: 6.5%; 
+}
+
+.info{
+  background: red;
+}
+
+.flog{
+  color: #1c1c1c;
+  font-size: 23px;
+  font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+  line-height: 1.3333;
+  font-weight: 400;
+  position: absolute;
+  left: 36%; 
+  top: 15%;
+}
+
+.ir{
+  color: #1c1c1c;
+  font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+  line-height: 1.3333;
+  font-weight: 400;
+  position: absolute;
+  left: 37.5%; 
+  top: 22%;
+}
+
+.email{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #cccccc;
+  border-width: 1px;
+  width: 360px;
+  height: 50px;
+  position: absolute;
+  left: 9%;
+  top: 38%;
+}
+
+.email:focus,
+.email:active {
+  border-width: 2px;
+  outline: none !important;
+  border-color: #246dff;
+}
+
+.email::placeholder{
+  font-size: 16px;
+  padding-left: 11px;
+  color: #5c5c5c;
+}
+
+.esq{
+  cursor:pointer;
+  scale: 0.9;
+  position: absolute;
+  left: 7.5%;
+  top: 46%;
+  color: rgb(26,115,232);
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  
+}
+
+.priv{
+  scale: 0.9;
+  position: absolute;
+  left: 5.7%;
+  top: 59%;
+  color: #707070;
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  line-height: 1.3333;
+  font-weight: 400;
+}
+
+.saib{
+  color: rgb(26,115,232);
+  line-height: 2;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.criar{
+  scale: 0.9;
+  position: absolute;
+  left: 8.6%;
+  top: 77%;
+  color: rgb(26,115,232);
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  cursor: pointer;
+}
+
+.ent{
+  width: 100px;
+  height: 36px;
+  color: white;
+  position: absolute;
+  top: 78.8%;
+  left: 67.7%;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: .875rem;
+  font-weight: 600;
+  background-color: rgb(26,115,232);
+  border-style: solid;
+  border-radius: 4px;
+  border-color: rgb(26,115,232);
+  cursor: pointer;
+}
+
+.ent:hover{
+  background-color: rgb(21, 100, 203)
+}
+
+.lang{
+  position: absolute;
+  top: 89.1%;
+  left: 33%;
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  font-weight: 300;
+  color: #454545;
+  cursor: pointer;
+}
+
+.aj{
+  position: absolute;
+  top: 89.3%;
+  left: 52%;
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  font-weight: 300;
+  color: #454545;
+  cursor: pointer;
+}
+
+.daid{
+  position: absolute;
+  top: 89.3%;
+  left: 56.9%;
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  font-weight: 300;
+  color: #454545;
+  cursor: pointer;
+}
+
+.ter{
+  position: absolute;
+  top: 89.3%;
+  left: 63.6%;
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  font-weight: 300;
+  color: #454545;
+  cursor: pointer;
+}
+
+.set{
+  scale: 0.13;
+  position: absolute;
+  top: 80.9%;
+  left: 35.1%;
+}
